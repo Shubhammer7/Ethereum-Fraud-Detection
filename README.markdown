@@ -16,15 +16,15 @@ This project applies data science / machine-learning techniques to detect suspic
 
 ## 📊 Notable Features
 
-- **Risk Scoring System**: Heuristic-based scoring for wallets based on failed transactions, high-value transfers, and gas usage, visualized in the [Top 10 Risky Wallets by Heuristic Score](#) plot.
-- **Multi-Hop Fund Tracing**: Detects fund obfuscation through internal smart contract calls, shown in the [Distribution of Trace Depth](#) histogram.
+- **Risk Scoring System**: Heuristic-based scoring for wallets based on failed transactions, high-value transfers, and gas usage, visualized in the [Top 10 Risky Wallets by Heuristic Score](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/risky_wallets_hs.png) plot.
+- **Multi-Hop Fund Tracing**: Detects fund obfuscation through internal smart contract calls, shown in the [Distribution of Trace Depth](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/dist_trace_depth.png) histogram.
 - **Statistical Validation**: Pearson correlation and KS tests validate behavioral patterns (e.g., p < 0.05 for ETH sent vs. failed transactions).
 - **Normalized Token vs ETH Behavior Plots**: Visualizes combined ETH-token movements.
 - **OSINT Integration**: Labels suspicious wallets based on interactions with known DeFi contracts.
 
 ## 📈 Visual Insights
-- **Distribution of Total ETH Sent by Wallets**: Highlights the skewed distribution of wallet activity, with most wallets sending low ETH and a few high-activity wallets (e.g., 1666 ETH), as shown in the ![dist_total_eth](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/dist_total_eth.png).
-- **Top 10 Risky Wallets by Heuristic Score**: Displays the highest-risk wallets, aiding prioritization for investigation, with scores up to ~300.
+- **Distribution of Total ETH Sent by Wallets**: Highlights the skewed distribution of wallet activity, with most wallets sending low ETH and a few high-activity wallets (e.g., 1666 ETH), as shown in the graph: ![dist_total_eth](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/dist_total_eth.png)
+- **Top 10 Risky Wallets by Heuristic Score**: Displays the highest-risk wallets, aiding prioritization for investigation, with scores up to ~300. ![risky_wallets_hs](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/risky_wallets_hs.png)
 
 ## 🚀 Setup Instructions
 
