@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+.idea/
+cover_page.markdown
+eth_scan_state.json
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+pandas
+psycopy2
+psycopg2-binary
+requests
+scikit-learn
+matplotlib
+seaborn
+numpy
+scipy
+python-dateutil
