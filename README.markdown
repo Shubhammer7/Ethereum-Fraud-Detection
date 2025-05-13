@@ -23,7 +23,7 @@ This project applies data science / machine-learning techniques to detect suspic
 - **OSINT Integration**: Labels suspicious wallets based on interactions with known DeFi contracts.
 
 ## 📈 Visual Insights
-- **Distribution of Total ETH Sent by Wallets**: Highlights the skewed distribution of wallet activity, with most wallets sending low ETH and a few high-activity wallets (e.g., 1666 ETH), as shown in the [histogram](graphs/dist_total_eth.png).
+- **Distribution of Total ETH Sent by Wallets**: Highlights the skewed distribution of wallet activity, with most wallets sending low ETH and a few high-activity wallets (e.g., 1666 ETH), as shown in the ![dist_total_eth](https://github.com/Shubhammer7/Ethereum-Fraud-Detection/blob/main/graphs/dist_total_eth.png).
 - **Top 10 Risky Wallets by Heuristic Score**: Displays the highest-risk wallets, aiding prioritization for investigation, with scores up to ~300.
 
 ## 🚀 Setup Instructions
